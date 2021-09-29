@@ -1,0 +1,112 @@
+
+body{
+	background-color: #FFDBB9;
+	text-align: center;
+}
+
+.homepage{
+	padding: 180px;
+}
+
+.interior{
+	padding: 10px;
+}
+
+.gm{
+	color:#6c4c4c ;
+	font-size: 70px;
+	line-height: 10%;
+}
+
+@font-face {
+  font-family: Mont;
+  src: url(https://www.dafont.com/mont.font);
+}
+
+div {
+  font-family: Mont;
+}
+
+
+.guide{
+	color: #ac92c0;
+	font-size: 50px;
+	line-height: 50%;
+
+}
+
+.begin{
+	font-weight: lighter;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #ac92c0;
+}
+
+.clickhere{
+	font-weight: bolder;
+	font-size: 20px;
+	line-height: 1%;
+	font-family: sans-serif;
+	color: #6c4c4c;
+}
+
+.positionnames{
+	font-size: 25px;
+	line-height: 50%;
+	color: #6c4c4c;
+}
+
+.englishnames{
+	color: #ac92c0;
+	font-size: 25px;
+	line-height: 10%;
+	color: #ac92c0
+}
+
+
+.headings{
+	padding: 40px;
+}
+.subheading{
+	font-size: 12px;
+	color: #6c4c4c;
+	font-family: sans-serif;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-decoration: underline;
+	
+}
+
+.text{
+	font-size: 10px;
+	color: #6c4c4c;
+	font-family: sans-serif;
+	text-align: center;
+    max-width: 200px;
+    vertical-align: middle;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+
+}
+
+.text-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+img{
+	width: 70%;
+}
+
+
+.details{
+	padding: 100px;
+}
+
+.ending{
+	font-style: italic;
+	color: #ac92c0;
+	font-size: 25px;
+	color: #ac92c0;
+}
+

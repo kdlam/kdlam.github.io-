@@ -1,0 +1,24 @@
+
+.heading{
+  font-family: unset;
+  color: black;
+  font-size: 35px;
+}
+
+h1:hover {
+  background-color: yellow;
+}
+
+body{
+  background-color: hotpink;
+  }
+
+img{
+  width: 20%;
+}
+
+img:hover{
+  transform: translateY(50%);
+}
+
+
