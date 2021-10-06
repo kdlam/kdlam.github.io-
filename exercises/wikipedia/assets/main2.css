@@ -1,0 +1,77 @@
+
+body{
+	background-color: hotpink;
+	padding: 40px;
+}
+
+.content{
+	font-family: Alumni Sans;
+	font-size: 30px;
+	line-height: 1.5;
+}
+
+
+
+.title1{
+	font-size: 100px;
+	color: lightpink;
+	text-align: left;
+	font-family: Fugaz One;
+	margin-bottom: -100px;
+	margin-top: -85px;
+}
+
+
+.title2{
+	font-size: 100px;
+	color: greenyellow;
+	text-align: center;
+	font-family: Fugaz One;
+	margin-bottom: -100px;
+}
+
+.title3{
+font-size: 100px;
+color: blue;
+text-align: right;
+font-family: Fugaz One;
+}
+
+img{
+		width: 100%;
+
+}
+
+.section{
+	font-size: 30px;
+	margin-bottom: -40px;
+	font-family: Fugaz One;
+	text-align: left;
+}
+
+.subheading{
+	font-size: 20px;
+	font-family: Fugaz One;
+}
+
+.earlylife,.career,.musicalstyle,.impact{
+	margin-top: 60px;
+	font-family: Fugaz One;
+	fontsize: 50px;
+}
+
+.earlylife:hover,.career:hover,.intro:hover{
+	color: blue;
+}
+
+
+.wrapper{
+	padding: 0px 20px 0px 10px;
+	display: inline-flex;
+	column-gap: 15%;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+

@@ -1,0 +1,55 @@
+
+body{
+  padding: 50px;
+}
+
+.title1, .title2,.firstphoto{
+  visibility: hidden;
+}
+
+.content{
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.title3{
+  font-family: Lato;
+  font-size: 100px;
+  margin-bottom: -150px;
+  margin-top: -400px;
+  font-weight: bolder;
+
+}
+
+.section{
+  font-family: Lato;
+  font-weight: bolder;
+}
+
+.section{
+  font-size: 50px;
+}
+
+.subheading{
+  font-size: 100px;
+  line-height: 30px;
+  font-family: Lato;
+}
+
+.wrapper{
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  column-gap: 15%;
+  justify-content: center;
+}
+
+img{
+  display: flex;
+  justify-content: center;
+  max-width: 18%;
+  flex-direction: row-reverse;
+
+}
+
