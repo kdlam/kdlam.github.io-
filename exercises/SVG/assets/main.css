@@ -1,0 +1,34 @@
+
+
+
+@keyframes trianglesSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(2turn);
+  }
+}
+
+
+
+@keyframes colorSwap {
+  0% {
+    fill: default;
+  }
+  100% {
+    fill: #FFFFFF;
+  }
+}
+
+
+.cls-1 polygon, #triangles polygon {
+  animation: colorSwap 5s ease-in infinite alternate, trianglesSpin 5s ease-out infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+/*.cls-1 polygon, .cls-2 polygon {
+  animation: trianglesSpin 5s ease-out infinite;
+  height:300px;
+}*/
