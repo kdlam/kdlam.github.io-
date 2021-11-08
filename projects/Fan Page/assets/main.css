@@ -1,0 +1,476 @@
+/*GENERAL*/
+
+.teacup {
+  width: 20px;
+}
+.header {
+  position: fixed;
+  color:  white;
+  display:  flex;
+  justify-content:  center;
+  align-items:  center;
+}
+
+.nav a{
+  background-color: rgba(255,255,255,.5);
+  color:  #5D6740;
+  padding: 2px 15px;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-decoration:  none;
+  margin-top: 5px;
+}
+
+a {
+  color: white;
+}
+
+
+body{
+	background-color: #B0C159;
+  padding: 20px;
+}
+
+/*HOMEPAGE*/
+
+.opening {
+	color:  white;
+    font-family: Montserrat;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hometitle{
+	font-size: 60px;
+	color:  white;
+    font-family: Gloria Hallelujah;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: -50px;
+    text-align: center;
+    line-height:22px;
+     animation: fadeIn 6s;
+}
+
+.HOMEPAGE.html{
+	padding: 100px;
+}
+
+.opening{
+  margin-top: 150px;
+   animation-delay: 2s;
+  animation: fadeIn 6s;
+
+}
+.navcontainer{
+    color:  white;
+    font-family: Montserrat;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    column-gap: 10%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex: 1;
+}
+
+.homewrapper{
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 100px;
+  display: flex;
+  background-color: whitesmoke;
+}
+.content1{
+  text-align: left;
+  padding: 100px;
+  margin-top: 10px;
+}
+
+.line1{
+  font-size: 80px;
+  font-family: Gloria Hallelujah;
+  font-color: #B0C159;
+  line-height: 200px;
+}
+
+.line2{
+  margin-top: -100;
+  font-size: 30px;
+  text-align: right;
+  color: black;
+  font-family: Montserrat;
+}
+
+
+.line3{
+  color: #5D6740;
+  margin-top: 100px;
+  font-family: Montserrat;
+}
+
+.line4 {
+    color: lightgray;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+.line4{
+  animation: fadeIn;
+  letter-spacing: 2px;
+  transition: 0.7x;
+  width: 100%;
+}
+
+.line4 span{
+  opacity: 1;
+  transition: opacity 1400ms;
+}
+.line4 span:nth-child(1){
+  transition-delay: 300ms;
+  }
+
+
+.line4 span:nth-child(2){
+  transition-delay: 900ms;
+  }
+
+.line4 span:nth-child(3){
+  transition-delay: 400ms;
+  }
+
+.line4 span:nth-child(4){
+  transition-delay: 800ms;
+  }
+
+.line4 span:nth-child(5){
+  transition-delay: 800ms;
+  }
+
+.line4 span:nth-child(6){
+  transition-delay: 800ms;
+  }
+
+.line4 span:nth-child(7){
+  transition-delay: 500ms;
+  }
+
+.line4 span:nth-child(8){
+  transition-delay: 1000ms;
+  }
+
+
+.line4 span:nth-child(9){
+  transition-delay: 800ms;
+  }
+
+.line4:hover span{
+  opacity: 0;
+}
+
+.line5 {
+  color: #5D6740;
+}
+
+.line6{
+  margin-top: 50px;
+  color: #5D6740
+
+}
+
+.line7{
+  margin-top: 50px;
+  color: #5D6740;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.lastcup{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0%;
+  margin-top: 30px;
+}
+
+/*SECTION 1*/
+
+.subtitle1{
+	font-size: 100px;
+  font-family: Gloria Hallelujah;
+  color: #5D6740;
+  margin-top: 400px;
+  margin-left: 50px;
+  animation: fadeIn 6s;
+}
+
+.grid1{
+  margin-top: 40px;
+  animation: fadeIn 3s;
+
+}
+
+
+.grid1:hover{
+    display: none;
+}
+  
+
+.grid1:hover + .blah{
+    display: block;
+}
+
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.subtitle1: hover{
+    transform: translateY(50%);
+}
+
+.wrapper{
+  background-color: whitesmoke;
+  color: #B0C159 ;
+  font-family: Montserrat;
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  column-gap: 5%;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.content1, .content2{
+  flex: 2;
+  line-height: 50px;
+}
+
+.quote1, .quote2, .quote3{
+  flex: 1;
+  color: black;
+  align-items: center;
+  text-align: center;
+  margin-right: 100px;
+  line-height: 50px;
+}
+
+.part8,.part9,.part10,.part11{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+
+.part8:hover,.part9:hover,.part10:hover,.part11:hover{
+   transform: translateY(50%);
+}
+
+
+.navcontainer1{
+    color:  white;
+    font-family: Montserrat;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left:  10px;
+    text-decoration: none;
+    display: flex;
+    column-gap: 10%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.part6{
+
+}
+
+/*SECTION 2*/
+.subtitle2{
+  font-size: 100px;
+  font-family: Gloria Hallelujah;
+  color: #5D6740;
+  margin-top: 400px;
+  margin-left: 50px;
+  animation: fadeIn 6s;
+}
+
+.grid2{
+  margin-top: 40px;
+  animation: fadeIn 3s;
+}
+
+
+.grid2:hover{
+    display: none;
+}
+  
+
+.grid2:hover + .title2{
+    display: block;
+}
+
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.subtitle2: hover{
+    transform: translateY(50%);
+}
+
+.wrapper{
+  background-color: whitesmoke;
+  color: #B0C159 ;
+  font-family: Montserrat;
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  column-gap: 5%;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.content2{
+  flex: 2;
+  margin-top: 20px;
+    margin-bottom: 20px;
+  line-height: 50px;
+    text-align: left;
+  padding: 100px;
+  margin-top: 10px;
+}
+
+
+
+
+
+.navcontainer2{
+    color:  white;
+    font-family: Montserrat;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left:  10px;
+    text-decoration: none;
+    display: flex;
+    column-gap: 10%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/*SECTION 3*/
+.subtitle3{
+  font-size: 100px;
+  font-family: Gloria Hallelujah;
+  color: #5D6740;
+  margin-top: 400px;
+  margin-left: 50px;
+  animation: fadeIn 6s;
+}
+
+.grid3{
+  margin-top: 40px;
+  animation: fadeIn 3s;
+}
+
+
+.grid3:hover{
+    display: none;
+}
+  
+
+.grid3:hover + .title3{
+    display: block;
+}
+
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.subtitle3: hover{
+    transform: translateY(50%);
+}
+
+.wrapper{
+  background-color: whitesmoke;
+  color: #B0C159 ;
+  font-family: Montserrat;
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  column-gap: 5%;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.content3{
+  flex: 2;
+  margin-top: 20px;
+    margin-bottom: 20px;
+  line-height: 50px;
+    text-align: left;
+  padding: 100px;
+  margin-top: 10px;
+}
+
+
+
+.navcontainer3{
+    color:  white;
+    font-family: Montserrat;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left:  10px;
+    text-decoration: none;
+    display: flex;
+    column-gap: 10%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
