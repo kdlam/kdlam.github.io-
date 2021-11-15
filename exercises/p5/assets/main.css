@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.container {
+  z-index: 0;
+}
+
+
+.slider {
+  z-index: 1;
+  margin-top: 2em;
+  border: 1px solid black;
+    -webkit-appearance: none;  
+    appearance: none;
+    outline: whitesmoke; 
+    opacity: 0.5; 
+  }
+
+
+  .caption{
+  	color: white;
+  }
