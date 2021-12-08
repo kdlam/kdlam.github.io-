@@ -4,7 +4,7 @@ h1{
   font-family: Bebas Neue;
   position:  absolute;
   left:  171px;
-  top: 600px;
+  top: 590px;
   display: flex;
 }
 
@@ -214,14 +214,6 @@ body {
 
 
 
-
-
-
-/*[data-tooltip] {
-  position: relative;
-  z-index: 10;
-}*/
-
 /* Positioning and visibility settings of the tooltip */
 [data-tooltip]:before,
 [data-tooltip]:after {
@@ -231,7 +223,7 @@ body {
   left: 50%;
   bottom: calc(100% + 5px); /* 5px is the size of the arrow */
   pointer-events: none;
-  transition: 0.2s;
+  transition: 0.8s;
   will-change: transform;
 }
 
@@ -251,7 +243,6 @@ body {
   white-space: pre-wrap;
   transform: translate(-50%, -5px) scale(0.5);
 }
-
 
 
 
@@ -452,7 +443,7 @@ body {
   content: url("../assets/images/m7.png");
   height: 90px;
   position:  fixed;
-  left: 250px;
+  left: 275px;
   top: 30px;
 }
 
@@ -505,7 +496,7 @@ body {
   content: url("../assets/images/t2.png");
   height: 90px;
   position:  fixed;
-  left: 800px;
+  left: 815px;
   top: -50px;
 }
 
@@ -532,7 +523,7 @@ body {
   height: 90px;
   position:  fixed;
   left: 720px;
-  top: -50px;
+  top: -30px;
 }
 
 
@@ -657,11 +648,11 @@ body {
 
 .Tue8:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/t8.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 265px;
+  top: -50px;
 }
 
 
@@ -682,11 +673,11 @@ body {
 
 .Tue9:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/t9.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 230px;
+  top: -50px;
 }
 
 
@@ -710,11 +701,11 @@ body {
 
 .Wed1:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/w1.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 970px;
+  top: -80px;
 }
 
 
@@ -736,11 +727,11 @@ body {
 
 .Wed2:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/w2.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 945px;
+  top: -80px;
 }
 
 
@@ -761,11 +752,11 @@ body {
 
 .Wed3:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/t6.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 820px;
+  top: -80px;
 }
 
 
@@ -787,11 +778,11 @@ body {
 
 .Wed4:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/w4.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 720px;
+  top: -30px;
 }
 
 
@@ -813,11 +804,11 @@ body {
 
 .Wed5:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/w5.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 580px;
+  top: -70px;
 }
 
 
@@ -839,11 +830,11 @@ body {
 
 .Wed6:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/w6.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 540px;
+  top: -80px;
 }
 
 
@@ -866,11 +857,11 @@ body {
 
 .Thu1:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/th1.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 970px;
+  top: -130px;
 }
 
 .Thu2 {
@@ -891,11 +882,11 @@ body {
 
 .Thu2:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/t3.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 910px;
+  top: -130px;
 }
 
 .Thu3 {
@@ -916,11 +907,11 @@ body {
 
 .Thu3:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/th3.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 650px;
+  top: -130px;
 }
 
 .Thu4 {
@@ -941,11 +932,11 @@ body {
 
 .Thu4:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/th4.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 435px;
+  top: -120px;
 }
 
 .Thu5 {
@@ -966,11 +957,11 @@ body {
 
 .Thu5:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/m6.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 300px;
+  top: -150px;
 }
 
 
@@ -994,11 +985,11 @@ body {
 
 .Fri1:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/t1.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 770px;
+  top: -200px;
 }
 
 .Fri2{
@@ -1019,11 +1010,11 @@ body {
 
 .Fri2:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/f2.png");
   height: 90px;
   position:  fixed;
   left: 750px;
-  top: 50px;
+  top: -200px;
 }
 
 
@@ -1046,11 +1037,11 @@ body {
 
 .Fri3:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/f3.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 205px;
+  top: -180px;
 }
 
 /*Saturday*/
@@ -1073,11 +1064,11 @@ body {
 
 .Sat1:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/sat1.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 860px;
+  top: -230px;
 }
 
 .Sat2{
@@ -1099,11 +1090,11 @@ body {
 
 .Sat2:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/sat2.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 480px;
+  top: -230px;
 }
 
 
@@ -1126,11 +1117,11 @@ body {
 
 .Sat3:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/t6.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 430px;
+  top: -260px;
 }
 
 
@@ -1155,11 +1146,11 @@ body {
 
 .Sun1:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/sun1.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 930px;
+  top: -290px;
 }
 
 .Sun2{
@@ -1181,11 +1172,11 @@ body {
 
 .Sun2:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/w1.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 900px;
+  top: -280px;
 }
 
 .Sun3{
@@ -1206,11 +1197,11 @@ body {
 
 .Sun3:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/th1.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 760px;
+  top: -300px;
 }
 
 .Sun4{
@@ -1232,18 +1223,18 @@ body {
 
 .Sun4:hover:after{
   display: block;
-  content: url("../assets/images/pic.jpg");
+  content: url("../assets/images/sun4.png");
   height: 90px;
   position:  fixed;
-  left: 750px;
-  top: 50px;
+  left: 375px;
+  top:-290px;
 }
 
 .space{
   color: black;
   position:  absolute;
   left: 20px;
-  top: 220px;
+  top: 480px;
   font-size: 50px;
 }
 
