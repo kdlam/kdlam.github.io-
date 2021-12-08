@@ -1,0 +1,1249 @@
+
+h1{
+  color: white;
+  font-family: Bebas Neue;
+  position:  absolute;
+  left:  171px;
+  top: 600px;
+  display: flex;
+}
+
+body {
+  background:  black;
+  padding: 10px;
+}
+
+.context{
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  position: absolute;
+  top: 675px;
+  left: 171px;
+  display: flex;
+  max-width: 105ch;
+}
+
+
+
+.flexbox{
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  column-gap: 15%;
+  justify-content: center;
+}
+
+
+/*legend*/
+
+.legend {
+  color: white;
+  font-family: Bebas Neue;
+  font-size: 25px;
+  max-width: 13ch;
+}
+
+
+.rnb{
+  background-color: #AE7DFF;
+}
+
+.rap{
+  background-color: #5E50FF;
+}
+
+.instrumental{
+  background-color: #F81FFD;
+}
+
+.pop{
+  background-color: #8AFFE3;
+}
+
+.artists{
+  color: white;
+  font-family: Bebas Neue;
+  font-size: 30px;
+  position:  absolute;
+  left: 1150px;
+  top: 130px;
+  
+}
+
+
+
+/*timestamps*/
+
+.time, .days{
+  color: white;
+    font-family: Bebas Neue;
+    font-size: 20px;
+}
+
+
+.eightam {
+  position:  absolute;
+  left:  250px;
+  top: 500px;
+}
+.nineam {
+  position:  absolute;
+  left:  300px;
+  top: 500px;
+}
+.tenam {
+  position:  absolute;
+  left:  350px;
+  top: 500px;
+}
+.elevenam {
+  position:  absolute;
+  left:  400px;
+  top: 500px;
+}
+.twelvepm {
+  position:  absolute;
+  left:  450px;
+  top: 500px;
+}
+.onepm {
+  position:  absolute;
+  left:  500px;
+  top: 500px;
+}
+.twopm {
+  position:  absolute;
+  left:  550px;
+  top: 500px;
+}
+.threepm {
+  position:  absolute;
+  left:  600px;
+  top: 500px;
+}
+.fourpm {
+  position:  absolute;
+  left:  650px;
+  top: 500px;
+}
+.fivepm {
+  position:  absolute;
+  left:  700px;
+  top: 500px;
+}
+.sixpm {
+  position:  absolute;
+  left:  750px;
+  top: 500px;
+}
+.sevenpm {
+  position:  absolute;
+  left:  800px;
+  top: 500px;
+}
+.eightpm {
+  position:  absolute;
+  left:  850px;
+  top: 500px;
+}
+.ninepm {
+  position:  absolute;
+  left:  900px;
+  top: 500px;
+}
+.tenpm {
+  position:  absolute;
+  left:  950px;
+  top: 500px;
+}
+.elevenpm {
+  position:  absolute;
+  left:  1000px;
+  top: 500px;
+}
+.midnight {
+  position:  absolute;
+  left:  1050px;
+  top: 500px;
+}
+
+
+/*days*/
+
+
+.Monday {
+  position:  absolute;
+  left:  170px;
+  top: 150px;
+}
+
+.Tuesday{
+  position:  absolute;
+  left:  170px;
+  top: 200px;
+}
+
+.Wednesday {
+  position:  absolute;
+  left:  170px;
+  top: 250px;
+}
+
+.Thursday {
+  position:  absolute;
+  left:  170px;
+  top: 300px;
+}
+
+.Friday {
+  position:  absolute;
+  left:  170px;
+  top: 350px;
+}
+
+.Saturday {
+  position:  absolute;
+  left:  170px;
+  top: 400px;
+}
+
+.Sunday {
+  position:  absolute;
+  left:  170px;
+  top: 450px;
+}
+
+
+
+
+
+
+/*[data-tooltip] {
+  position: relative;
+  z-index: 10;
+}*/
+
+/* Positioning and visibility settings of the tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  left: 50%;
+  bottom: calc(100% + 5px); /* 5px is the size of the arrow */
+  pointer-events: none;
+  transition: 0.2s;
+  will-change: transform;
+}
+
+/* The actual tooltip with a dynamic width */
+[data-tooltip]:before {
+  content: attr(data-tooltip);
+  padding: 10px 18px;
+  min-width: 50px;
+  max-width: 300px;
+  width: max-content;
+  width: -moz-max-content;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  white-space: pre-wrap;
+  transform: translate(-50%, -5px) scale(0.5);
+}
+
+
+
+
+/* Tooltip becomes visible at hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+/* Scales from 0.5 to 1 -> grow effect */
+[data-tooltip]:hover:before {
+  transition-delay: 0.3s;
+  transform: translate(-50%, -5px) scale(1);
+}
+/* 
+  Arrow slide down effect only on mouseenter (NOT on mouseleave)
+*/
+[data-tooltip]:hover:after {
+  transition-delay: 0.5s; /* Starting after the grow effect */
+  transition-duration: 0.2s;
+  transform: translateX(-50%) scaleY(1);
+}
+
+
+
+
+/*Monday*/
+
+.Mon1 {
+  position:  absolute;
+  left:  310px;
+  top: 183px;
+  transform: 
+  translate(-100%,-100%);
+  width:  40px;
+  height:  45px;
+  background:  #AE7DFF;}
+
+.Mon1:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Mon1:hover:after{
+  display: block;
+  content: url("../assets/images/m1.png");
+  height: 10px;
+  width: 10px;
+  position:  fixed;
+  left: 800px;
+  top: 25px;
+}
+
+
+.Mon2 {
+  position:  absolute;
+  left:  350px;
+  top: 183px;
+  transform: 
+  translate(-100%,-100%);
+  width:  60px;
+  height:  45px;
+  background: #8AFFE3;}
+
+.Mon2:hover{
+  background-color: #BAFFEE;
+  opacity: 1;
+}
+
+.Mon2:hover:after{
+  display: block;
+  content: url("../assets/images/m2.png");
+  height: 90px;
+  position:  fixed;
+  left: 950px;
+  top: 50px;
+}
+
+.Mon3 {
+  position:  absolute;
+  left:  500px;
+  top: 183px;
+  transform: 
+  translate(-100%,-100%);
+  width:  20px;
+  height:  45px;
+  background:  #5E50FF;}
+
+
+.Mon3:hover{
+  background-color: #9087FF;
+  opacity: 1;
+}
+
+.Mon3:hover:after{
+  display: block;
+  content: url("../assets/images/m3.png");
+  height: 90px;
+  position:  fixed;
+  left: 770px;
+  top: 50px;
+}
+
+
+
+.Mon4 {
+  position:  absolute;
+  left:  510px;
+  top: 183px;
+  transform: 
+  translate(-100%,-100%);
+  width:  10px;
+  height:  45px;
+  background: #AE7DFF;}
+
+.Mon4:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Mon4:hover:after{
+  display: block;
+  content: url("../assets/images/m4.png");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+.Mon5 {
+  position:  absolute;
+  left:  900px;
+  top: 183px;
+  transform: 
+  translate(-100%,-100%);
+  width:  200px;
+  height:  45px;
+  background:  #F81FFD;}
+
+.Mon5:hover{
+  background-color: #FDA1FF;
+  opacity: 1;
+}
+
+.Mon5:hover:after{
+  display: block;
+  content: url("../assets/images/m5.png");
+  height: 90px;
+  position:  fixed;
+  left: 550px;
+  top: 30px;
+}
+
+
+.Mon6 {
+  position:  absolute;
+  left:  950px;
+  top: 183px;
+  transform: 
+  translate(-100%,-100%);
+  width:  30px;
+  height:  45px;
+  background:  #8AFFE3;}
+
+.Mon6:hover{
+  background-color: #BAFFEE;
+  opacity: 1;
+}
+
+.Mon6:hover:after{
+  display: block;
+  content: url("../assets/images/m6.png");
+  height: 90px;
+  position:  fixed;
+  left: 320px;
+  top: 30px;
+}
+
+
+.Mon7 {
+  position:  absolute;
+  left:  1030px;
+  top: 183px;
+  transform: 
+  translate(-100%,-100%);
+  width: 70px;
+  height: 45px;
+  background: #AE7DFF;}
+
+.Mon7:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Mon7:hover:after{
+  display: block;
+  content: url("../assets/images/m7.png");
+  height: 90px;
+  position:  fixed;
+  left: 250px;
+  top: 30px;
+}
+
+
+
+/*Tuesday*/
+.Tue1 {
+  position:  absolute;
+  left:  450px;
+  top: 233px;
+  transform: 
+  translate(-100%,-100%);
+  width:  70px;
+  height:  45px;
+  background:  #5E50FF;}
+
+.Tue1:hover{
+  background-color: #9087FF;
+  opacity: 1;
+}
+
+.Tue1:hover:after{
+  display: block;
+  content: url("../assets/images/t1.png");
+  height: 90px;
+  position:  fixed;
+  left: 850px;
+  top: -50px;
+}
+
+
+
+.Tue2 {
+  position:  absolute;
+  left:  430px;
+  top: 233px;
+  transform: 
+  translate(-100%,-100%);
+  width:  10px;
+  height:  45px;
+  background: #8AFFE3;}
+
+.Tue2:hover{
+  background-color: #BAFFEE;
+  opacity: 1;
+}
+
+.Tue2:hover:after{
+  display: block;
+  content: url("../assets/images/t2.png");
+  height: 90px;
+  position:  fixed;
+  left: 800px;
+  top: -50px;
+}
+
+
+
+.Tue3 {
+  position:  absolute;
+  left:  600px;
+  top: 230px;
+  transform: 
+  translate(-100%,-100%);
+  width:  90px;
+  height:  45px;
+  background: #AE7DFF;}
+
+.Tue3:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Tue3:hover:after{
+  display: block;
+  content: url("../assets/images/t3.png");
+  height: 90px;
+  position:  fixed;
+  left: 720px;
+  top: -50px;
+}
+
+
+
+.Tue4 {
+  position:  absolute;
+  left:  660px;
+  top: 233px;
+  transform: 
+  translate(-100%,-100%);
+  width:  20px;
+  height:  45px;
+  background:  #5E50FF;}
+
+.Tue4:hover{
+  background-color: #9087FF;
+  opacity: 1;
+}
+
+.Tue4:hover:after{
+  display: block;
+  content: url("../assets/images/t4.png");
+  height: 90px;
+  position:  fixed;
+  left: 580px;
+  top: -50px;
+}
+
+
+
+.Tue5 {
+  position:  absolute;
+  left:  800px;
+  top: 233px;
+  transform: 
+  translate(-100%,-100%);
+  width:  20px;
+  height:  45px;
+  background:  #AE7DFF;}
+
+.Tue5:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Tue5:hover:after{
+  display: block;
+  content: url("../assets/images/t5.png");
+  height: 90px;
+  position:  fixed;
+  left: 460px;
+  top: -40px;
+}
+
+
+.Tue6 {
+  position:  absolute;
+  left:  950px;
+  top: 233px;
+  transform: 
+  translate(-100%,-100%);
+  width:  100px;
+  height:  45px;
+  background:  #F81FFD;}
+
+.Tue6:hover{
+  background-color: #FDA1FF;
+  opacity: 1;
+}
+
+.Tue6:hover:after{
+  display: block;
+  content: url("../assets/images/t6.png");
+  height: 90px;
+  position:  fixed;
+  left: 400px;
+  top: -30px;
+}
+
+
+
+.Tue7 {
+  position:  absolute;
+  left:  970px;
+  top: 233px;
+  transform: 
+  translate(-100%,-100%);
+  width:  20px;
+  height:  45px;
+  background:  #AE7DFF;}
+
+.Tue7:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Tue7:hover:after{
+  display: block;
+  content: url("../assets/images/t7.png");
+  height: 90px;
+  position:  fixed;
+  left: 285px;
+  top: -30px;
+}
+
+
+
+.Tue8 {
+  position:  absolute;
+  left:  990px;
+  top: 233px;
+  transform: 
+  translate(-100%,-100%);
+  width:  20px;
+  height:  45px;
+  background:  #8AFFE3;}
+
+.Tue8:hover{
+  background-color: #BAFFEE;
+  opacity: 1;
+}
+
+.Tue8:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+.Tue9 {
+  position:  absolute;
+  left:  1080px;
+  top: 233px;
+  transform: 
+  translate(-100%,-100%);
+  width:  80px;
+  height:  45px;
+  background:  #F81FFD;}
+
+.Tue9:hover{
+  background-color: #FDA1FF;
+  opacity: 1;
+}
+
+.Tue9:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+
+/*Wednesday*/
+
+.Wed1 {
+  position:  absolute;
+  left: 370px;
+  top: 283px;
+  transform: 
+  translate(-100%,-100%);
+  width:  100px;
+  height:  45px;
+  background:  #8AFFE3;}
+
+.Wed1:hover{
+  background-color: #BAFFEE;
+  opacity: 1;
+}
+
+.Wed1:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+
+.Wed2 {
+  position:  absolute;
+  left:  330px;
+  top: 283px;
+  transform: 
+  translate(-100%,-100%);
+  width:  40px;
+  height:  45px;
+  background:#5E50FF;}
+
+.Wed2:hover{
+  background-color: #9087FF;
+  opacity: 1;
+}
+
+.Wed2:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+.Wed3 {
+  position:  absolute;
+  left:  610px;
+  top: 283px;
+  transform: 
+  translate(-100%,-100%);
+  width:  180px;
+  height:  45px;
+  background: #F81FFD;}
+
+.Wed3:hover{
+  background-color: #FDA1FF;
+  opacity: 1;
+}
+
+.Wed3:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+
+.Wed4 {
+  position:  absolute;
+  left:  550px;
+  top: 283px;
+  transform: 
+  translate(-100%,-100%);
+  width:  15px;
+  height:  45px;
+  background: #AE7DFF;}
+
+.Wed4:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Wed4:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+
+.Wed5 {
+  position:  absolute;
+  left:  750px;
+  top: 283px;
+  transform: 
+  translate(-100%,-100%);
+  width:  100px;
+  height:  45px;
+  background:  #AE7DFF;}
+
+.Wed5:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Wed5:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+
+.Wed6 {
+  position:  absolute;
+  left:  700px;
+  top: 283px;
+  transform: 
+  translate(-100%,-100%);
+  width:  6px;
+  height:  45px;
+  background: #8AFFE3;}
+
+.Wed6:hover{
+  background-color: #BAFFEE;
+  opacity: 1;
+}
+
+.Wed6:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+/*Thursday*/
+
+.Thu1 {
+  position:  absolute;
+  left:  320px;
+  top: 333px;
+  transform: 
+  translate(-100%,-100%);
+  width:  45px;
+  height:  45px;
+  background:  #F81FFD;}
+
+.Thu1:hover{
+  background-color: #FDA1FF;
+  opacity: 1;
+}
+
+.Thu1:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+.Thu2 {
+  position:  absolute;
+  left:  360px;
+  top: 333px;
+  transform: 
+  translate(-100%,-100%);
+  width:  30px;
+  height:  45px;
+  background:  #AE7DFF;}
+
+
+.Thu2:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Thu2:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+.Thu3 {
+  position:  absolute;
+  left:  600px;
+  top: 333px;
+  transform: 
+  translate(-100%,-100%);
+  width:  9px;
+  height:  45px;
+  background:  #5E50FF;}
+
+
+.Thu3:hover{
+  background-color: #9087FF;
+  opacity: 1;
+}
+
+.Thu3:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+.Thu4 {
+  position:  absolute;
+  left:  920px;
+  top: 333px;
+  transform: 
+  translate(-100%,-100%);
+  width:  120px;
+  height:  45px;
+  background:  #AE7DFF;}
+
+
+.Thu4:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Thu4:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+.Thu5 {
+  position:  absolute;
+  left:  1000px;
+  top: 333px;
+  transform: 
+  translate(-100%,-100%);
+  width:  60px;
+  height:  45px;
+  background:  #8AFFE3;}
+
+
+.Thu5:hover{
+  background-color: #BAFFEE;
+  opacity: 1;
+}
+
+.Thu5:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+/*Friday*/
+
+.Fri1{
+  position:  absolute;
+  left:  550px;
+  top: 383px;
+  transform: 
+  translate(-100%,-100%);
+  width:  80px;
+  height:  45px;
+  background:  #5E50FF;}
+
+
+.Fri1:hover{
+  background-color: #9087FF;
+  opacity: 1;
+}
+
+.Fri1:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+.Fri2{
+  position:  absolute;
+  left:  500px;
+  top: 383px;
+  transform: 
+  translate(-100%,-100%);
+  width:  3px;
+  height:  45px;
+  background:  #8AFFE3;}
+
+
+.Fri2:hover{
+  background-color: #BAFFEE;
+  opacity: 1;
+}
+
+.Fri2:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+.Fri3{
+  position:  absolute;
+  left:  1030px;
+  top: 383px;
+  transform: 
+  translate(-100%,-100%);
+  width:  10px;
+  height:  45px;
+  background: #AE7DFF;
+}
+
+
+.Fri3:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Fri3:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+/*Saturday*/
+
+.Sat1{
+  position:  absolute;
+  left:  420px;
+  top: 433px;
+  transform: 
+  translate(-100%,-100%);
+  width:  40px;
+  height:  45px;
+  background: #AE7DFF;
+}
+
+.Sat1:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Sat1:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+.Sat2{
+  position:  absolute;
+  left:  870px;
+  top: 433px;
+  transform: 
+  translate(-100%,-100%);
+  width:  120px;
+  height:  45px;
+  background: #AE7DFF;
+}
+
+
+.Sat2:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Sat2:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+.Sat3{
+  position:  absolute;
+  left:  970px;
+  top: 433px;
+  transform: 
+  translate(-100%,-100%);
+  width:  150px;
+  height:  45px;
+  background: #F81FFD;
+}
+
+
+.Sat3:hover{
+  background-color: #FDA1FF;
+  opacity: 1;
+}
+
+.Sat3:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+
+/*Sunday*/
+
+.Sun1{
+  position:  absolute;
+  left:  340px;
+  top: 483px;
+  transform: 
+  translate(-100%,-100%);
+  width:  40px;
+  height:  45px;
+  background: #5E50FF;
+}
+
+
+.Sun1:hover{
+  background-color: #9087FF;
+  opacity: 1;
+}
+
+.Sun1:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+.Sun2{
+  position:  absolute;
+  left:  360px;
+  top: 483px;
+  transform: 
+  translate(-100%,-100%);
+  width:  25px;
+  height:  45px;
+  background: #8AFFE3;
+}
+
+
+.Sun2:hover{
+  background-color: #BAFFEE;
+  opacity: 1;
+}
+
+.Sun2:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+.Sun3{
+  position:  absolute;
+  left:  720px;
+  top: 483px;
+  transform: 
+  translate(-100%,-100%);
+  width:  240px;
+  height:  45px;
+  background: #F81FFD;
+}
+
+.Sun3:hover{
+  background-color: #FDA1FF;
+  opacity: 1;
+}
+
+.Sun3:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+.Sun4{
+  position:  absolute;
+  left:  1050px;
+  top: 483px;
+  transform: 
+  translate(-100%,-100%);
+  width:  200px;
+  height:  45px;
+  background: #AE7DFF;
+}
+
+
+.Sun4:hover{
+  background-color: #CAAAFF;
+  opacity: 1;
+}
+
+.Sun4:hover:after{
+  display: block;
+  content: url("../assets/images/pic.jpg");
+  height: 90px;
+  position:  fixed;
+  left: 750px;
+  top: 50px;
+}
+
+.space{
+  color: black;
+  position:  absolute;
+  left: 20px;
+  top: 220px;
+  font-size: 50px;
+}
+
