@@ -1,0 +1,82 @@
+
+body{
+/*	credit:gradient code taken from https://codepen.io/P1N2O/pen/pyBNzX*/
+	background: linear-gradient(-90deg, #f9a05a, #f9deb1, #AC748F, #87ceeb);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+	cursor: url("sun.png"), auto;
+
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@font-face {
+  font-family: Mont;
+  src: url(https://www.dafont.com/mont.font);
+}
+
+.title{
+	font-family: sans-serif;
+	font-size: 50px;
+	color: white;
+	decoration: italics;
+}
+
+.english{
+	font-family: sans-serif;
+	font-size: 90px;
+	color: white;
+	margin-top: -20px;
+}
+
+.description, .congrats{
+	font-family: mont;
+	color: white;
+	font-size: 30px;
+}
+
+img{
+	width: 900px;
+	display: flex;
+	position: absolute;
+	top: -10%;
+	left: 40%;
+	opacity: 20%;
+}
+
+.nav{
+	display: flex;
+	position: fixed;
+	top: 10%;
+	left: 5%;
+	font-family: mont;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+a{
+		text-decoration: none;
+		color: white;
+}
+
+.between{
+	opacity: 0;
+}
+
+.content{
+	padding: 200px;
+}

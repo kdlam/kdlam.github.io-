@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--   You link to the CSS here -->
+  <link rel="stylesheet" href="assets/mainhomepage.css">
+  <title>Sun Salutation Guide</title>
+</head>
+<body onload="initClock()">
+
+<div class="clock">
+  <div class="datetime">
+    <div class="date">
+        <span id="dayname">Day</span>,
+        <span id="month">Month</span>
+        <span id="daynum">00</span>
+        <span id="year">Year</span>
+    </div>
+
+    <div class="time">
+        <span id="hour">00</span>:
+        <span id="minutes">00</span>:
+        <span id="seconds">00</span>
+        <span id="period">AM</span>
+    </div>
+    </div>
+
+    <div class="message"><span style="color:white; text-align:center"><br><br><br><br><br><br><br>@beginners: click into each pose description <br> @yogis: scroll for your daily flow</span>
+ </div>
+
+
+
+
+<script type="text/javascript">
+  function updateClock(){
+    var now = new Date();
+    var dname = now.getDay(),
+      mo = now.getMonth(),
+      dnum = now.getDate(),
+      yr = now.getFullYear(),
+      hou = now.getHours(),
+      min = now.getMinutes(),
+      sec = now.getSeconds(),
+      pe = "AM";
+
+      if(hou == 0) {
+        hou = 12;
+      }
+
+      if (hou > 12) {
+        hou = hou - 12;
+        pe = "PM";
+      }
+
+      Number.prototype.pad = function(digits){
+        for(var n= this.toString(); n.length < digits; n = 0 + n);
+          return n;
+      }
+
+      var months = ["JAN", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "DEC"];
+      var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+      var ids = ["dayname", "month", "daynum", "year", "hour", "minutes", "seconds", "period"];
+      var values = [week[dname], months[mo], dnum.pad(2), yr, hou.pad(2), min.pad(2), sec.pad(2), pe];
+      for (var i =0; i<ids.length; i++)
+        document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+  }
+
+
+
+  function initClock(){
+    updateClock();
+    window.setInterval("updateClock()", 1);
+  }
+
+
+</script>
+</div>
+
+<div class="dots">
+  <div class="dot1">
+    <a href="section1.html"><img src="assets/imgs/p1.png" alt="pose1"></a>
+  </div>
+ <div class="dot2">
+    <a href="section2.html"><img src="assets/imgs/p2.png" alt="pose2"></a>
+  </div>
+   <div class="dot3">
+    <a href="section3.html"><img src="assets/imgs/p3.png" alt="pose3"></a>
+  </div>
+   <div class="dot4">
+   <a href="section4.html"> <img src="assets/imgs/p4.png" alt="pose4"></a>
+  </div>
+   <div class="dot5">
+    <a href="section5.html"><img src="assets/imgs/p5.png" alt="pose5"></a>
+  </div>
+   <div class="dot6">
+   <a href="section6.html"><img src="assets/imgs/p6.png" alt="pose6"></a>
+  </div>
+   <div class="dot7">
+    <a href="section7.html"><img src="assets/imgs/p5.png" alt="pose5"></a>
+  </div>
+   <div class="dot8">
+    <a href="section8.html"><img src="assets/imgs/p4.png" alt="pose4"></a>
+  </div>
+   <div class="dot9">
+    <a href="section9.html"><img src="assets/imgs/p3.png" alt="pose3"></a>
+  </div>
+   <div class="dot10">
+   <a href="section10.html"> <img src="assets/imgs/p2.png" alt="pose2"></a>
+  </div>
+
+</div>
+<div class="rising">INHALE</div>
+<div class="falling">EXHALE</div>
+
+
+<div class="starthere">start here</div>
+
+
+</body>
+</html>
