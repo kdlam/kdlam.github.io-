@@ -19,19 +19,19 @@ body {
   position: absolute;
   top: 675px;
   left: 171px;
-  display: flex;
+/*  display: flex;*/
   max-width: 105ch;
 }
 
 
-
+/*
 .flexbox{
   display: flex;
   padding: 0px 10px 0px 10px;
   column-gap: 15%;
   justify-content: center;
 }
-
+*/
 
 /*legend*/
 
@@ -1234,7 +1234,29 @@ body {
   color: black;
   position:  absolute;
   left: 20px;
-  top: 480px;
+  top: 200px;
   font-size: 50px;
 }
+
+.rb{
+  color: #AE7DFF;
+  font-size: 20px;
+  style: italic;
+}
+
+.rapp{
+  color: #5E50FF;
+  font-size: 20px;
+}
+
+.inst{
+  color: #F81FFD;
+  font-size: 20px;
+}
+
+.popp{
+  color: #8AFFE3;
+  font-size: 20px;
+}
+
 
